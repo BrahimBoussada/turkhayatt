@@ -74,7 +74,7 @@ export const NavLinks = [
   },
   {
     name: "Services",
-    hash: "/services",
+    hash: "/tourism",
   },
   {
     name: "FAQs",
