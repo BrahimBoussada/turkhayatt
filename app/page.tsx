@@ -16,13 +16,13 @@ export default function Home() {
     <main>
       <Container>
         <Hero className="md:mt-[55px]">
-          <HeroTitle className="text-dark">
+          <HeroTitle className="text-dark -z-30">
             EXPERIENCE LIFE IN TURKEY WITH{" "}
             <span className=" text-red">TÜRKHAYATT</span>
           </HeroTitle>
           <HeroSubtitle>
             We strive to help international visitors and local residents in
-            Turkey by offering expert services in
+            Türkiye by offering expert services in
             <span className=" text-red">
               {" "}
               Health, Education, Tourism, and more.
