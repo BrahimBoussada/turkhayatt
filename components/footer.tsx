@@ -88,13 +88,10 @@ export const Footer = () => {
 
         {/* UNDER FOOTER */}
         <div className=" flex flex-col md:flex-row justify-between mt-[34px] md:mt-[89px] gap-[13px] md:gap-0">
-          <div className="text-[14px]">Social Media</div>
-
           <div className="text-[14px] select-none hidden md:flex">
-            &copy; 2024 TÜRKHAYATT
+            &copy; {new Date().getFullYear()} TÜRKHAYATT
           </div>
 
-          <div className="text-[14px]">English</div>
           <div className="text-[14px] mt-[21px] select-none md:hidden">
             &copy; 2024 TÜRKHAYATT
           </div>

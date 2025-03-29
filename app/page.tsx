@@ -2,6 +2,7 @@ import { Bubbles } from "@/components/bubbles";
 import { ContactBtn } from "@/components/contactbtn";
 import { Container } from "@/components/container";
 import { Arrow } from "@/components/icons/arrow";
+import HeroImage from "@/public/HeroPhoto.png";
 import {
   Headings,
   HeadingsTitle,
@@ -29,11 +30,12 @@ export default function Home() {
             </span>
           </HeroSubtitle>
           <Image
-            src={"/HeroPhoto.png"}
+            src={HeroImage}
             alt={"Istanbul Bridge photo"}
             width={1312}
             height={632}
             quality={95}
+            placeholder="blur"
           ></Image>
         </Hero>
 
